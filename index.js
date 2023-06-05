@@ -12,8 +12,7 @@ let opciones = prompt("1-Compra Fernet\n2-Compra Cerveza\n3-Compra Vino\n4- Sali
 opciones = parseInt(opciones);
 
 while (opciones !== 4) {
-    opciones = prompt("1-Compra Fernet\n2-Compra Cerveza\n3-Compra Vino\n4- Salir")
-    opciones = parseInt(opciones);
+   
     let listaCompras = ""
     switch (opciones) {
         case 1:
@@ -116,6 +115,8 @@ while (opciones !== 4) {
 
 
     }
+    opciones = prompt("1-Compra Fernet\n2-Compra Cerveza\n3-Compra Vino\n4- Salir")
+    opciones = parseInt(opciones);
 
 }
 
